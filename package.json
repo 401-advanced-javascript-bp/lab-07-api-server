@@ -1,7 +1,6 @@
 {
-  "name": "api-client",
+  "name": "lab-07-api-server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "lint": "eslint **/*.js",
@@ -9,7 +8,7 @@
     "test-watch": "jest --watchAll --verbose --coverage"
   },
   "keywords": [],
-  "author": "",
+  "author": "becky and melissa",
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.6.1",
@@ -19,5 +18,17 @@
     "method-override": "^3.0.0",
     "superagent": "^4.0.0-beta.5",
     "supertest": "^3.3.0"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/401-advanced-javascript-bp/lab-07-api-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/401-advanced-javascript-bp/lab-07-api-server/issues"
+  },
+  "homepage": "https://github.com/401-advanced-javascript-bp/lab-07-api-server#readme",
+  "description": ""
 }

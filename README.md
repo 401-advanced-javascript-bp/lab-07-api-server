@@ -7,9 +7,8 @@
 
 ### Links and Resources
 * [submission PR](https://github.com/401-advanced-javascript-bp/lab-07-api-server/pull/2)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
+* [travis](https://travis-ci.com/401-advanced-javascript-bp/lab-07-api-server)
+
 
 #### Documentation
 * [api docs](http://xyz.com) (API servers)

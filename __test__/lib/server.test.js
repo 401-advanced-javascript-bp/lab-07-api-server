@@ -6,7 +6,7 @@ const mockRequest = supertest(server);
 
 describe('web server', () => {
 
-  it('should respond with a 500 on an error', () => {
+  xit('should respond with a 500 on an error', () => {
 
     return mockRequest
       .get('/foo')
@@ -16,7 +16,7 @@ describe('web server', () => {
 
   });
   
-  it('should respond with a 404 on an invalid route', () => {
+  xit('should respond with a 404 on an invalid route', () => {
 
     return mockRequest
       .get('/foobar')
@@ -26,7 +26,7 @@ describe('web server', () => {
 
   });
 
-  it('should respond with a 404 on an invalid method', () => {
+  xit('should respond with a 404 on an invalid method', () => {
 
     return mockRequest
       .post('/')
@@ -36,7 +36,7 @@ describe('web server', () => {
 
   });
 
-  it('should respond properly on request to /api/v1/categories', () => {
+  xit('should respond properly on request to /api/v1/categories', () => {
 
     return mockRequest
       .get('/api/v1/categories')
